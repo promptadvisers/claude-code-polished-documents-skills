@@ -6,7 +6,25 @@ This guide provides ready-to-use prompts that you can send directly to Claude Co
 
 ---
 
-## Step 1: Clone the Repository
+## Super Quick Start (30 seconds)
+
+Just paste this ONE prompt into Claude Code:
+
+```
+Clone https://github.com/promptadvisers/claude-code-polished-documents-skills and set it up completely:
+1. Clone the repo
+2. Create Python virtual environment and install python-docx
+3. Copy all skills to ~/.claude/skills/
+4. Test by creating a sample document with McKinsey styling
+```
+
+That's it! Skip to "Test the Document Polisher Skill" below to verify it worked.
+
+---
+
+## Detailed Setup (If You Prefer Step-by-Step)
+
+### Step 1: Clone the Repository
 
 Open Claude Code in any directory and paste this prompt:
 
@@ -23,20 +41,27 @@ After cloning:
 
 ---
 
-## Step 2: Set Up FireCrawl MCP (Optional but Recommended)
+### Step 2: Set Up FireCrawl MCP (Optional - For Custom Brands)
 
-If you want to extract branding from websites, paste this prompt:
+**Skip this step if you just want to use the 10 built-in brand themes!**
 
+FireCrawl lets you extract branding from ANY website to create custom themes.
+
+**Quick version** - paste this:
 ```
-Help me set up the FireCrawl MCP server for Claude Code. I need to:
-1. Get an API key from firecrawl.dev (walk me through this)
-2. Add the MCP server to my Claude Code configuration
-3. Test that it's working by extracting branding from a sample website
+I want to set up FireCrawl to extract website branding.
+
+1. First, tell me: Do I need to sign up at firecrawl.dev to get an API key?
+2. Walk me through getting the key step by step
+3. Once I have it, help me add the MCP server to Claude Code
+4. Test it by extracting branding from a sample site
 ```
+
+**Detailed guide**: See [FIRECRAWL-SETUP.md](FIRECRAWL-SETUP.md) for complete hand-holding through the process!
 
 ---
 
-## Step 3: Test the Document Polisher Skill
+### Step 3: Test the Document Polisher Skill
 
 Once set up, test it with this prompt:
 
