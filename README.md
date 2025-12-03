@@ -9,6 +9,26 @@ A comprehensive collection of Claude Code skills for document generation, stylin
 
 ---
 
+## New to This? Start Here!
+
+**Don't want to read documentation?** Just copy-paste prompts directly into Claude Code!
+
+### One-Line Setup
+
+Open Claude Code anywhere and paste this:
+
+```
+Clone https://github.com/promptadvisers/claude-code-polished-documents-skills and set it up for me - install the Python environment, copy skills to ~/.claude/skills/, and test it works.
+```
+
+### More Prompts
+
+See the **[quick-start/](quick-start/)** folder for:
+- [QUICK-START.md](quick-start/QUICK-START.md) - Step-by-step prompts for setup
+- [PROMPTS.md](quick-start/PROMPTS.md) - Copy-paste prompts for every use case
+
+---
+
 ## Features
 
 ### Document Polisher
